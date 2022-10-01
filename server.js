@@ -9,7 +9,7 @@ const port = 4200||process.env.PORT;
 app.use(cors({
 origin:"*",
 }));
-SC_ADDRESS="0x5e54a7Fe92cB27229e2C534bf009F5Ee4A98BCa0";
+SC_ADDRESS="0xdAca95f03C79a091120b4eb0F5d52CB025b4544c";
 
 const wallet = ethers.Wallet.fromMnemonic("burst burden skate laugh lens must grab short income worry legal dress");
 const ucpism = new web3.eth.Contract(abi, SC_ADDRESS);
